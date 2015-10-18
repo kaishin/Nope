@@ -5,11 +5,5 @@ var rules = [
       "type": "css-display-none",
       "selector": "header"
     }
-  },
-  {
-    "action": {"type": "ignore-previous-rules"},
-    "trigger": {
-      "url-filter": ".*"
-    }
   }
 ];
