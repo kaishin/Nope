@@ -22,6 +22,23 @@
 		<integer>0</integer>
 		<key>Global Page</key>
 		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>menuButton</string>
+				<key>Image</key>
+				<string>assets/icon.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Nope</string>
+				<key>Palette Label</key>
+				<string>Nope</string>
+				<key>Tool Tip</key>
+				<string>Nope Options</string>
+			</dict>
+		</array>
 	</dict>
 	<key>Description</key>
 	<string>Modern, performant, and responsible content blocking.</string>
