@@ -22,6 +22,24 @@
 		<integer>0</integer>
 		<key>Global Page</key>
 		<string>global.html</string>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>mainMenu</string>
+				<key>Menu Items</key>
+				<array>
+					<dict>
+						<key>Checked State</key>
+						<integer>0</integer>
+						<key>Identifier</key>
+						<string>whiteListSite</string>
+						<key>Title</key>
+						<string>Yep for this site</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
 		<key>Toolbar Items</key>
 		<array>
 			<dict>
@@ -33,6 +51,8 @@
 				<true/>
 				<key>Label</key>
 				<string>Nope</string>
+				<key>Menu</key>
+				<string>mainMenu</string>
 				<key>Palette Label</key>
 				<string>Nope</string>
 				<key>Tool Tip</key>
@@ -53,7 +73,7 @@
 			<key>Include Secure Pages</key>
 			<true/>
 			<key>Level</key>
-			<string>None</string>
+			<string>All</string>
 		</dict>
 	</dict>
 </dict>
