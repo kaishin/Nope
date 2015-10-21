@@ -6,7 +6,7 @@
 		<key>Key</key>
 		<string>whitleListedDomains</string>
 		<key>Title</key>
-		<string>White-listed Domains</string>
+		<string>Yep Domains</string>
 		<key>Type</key>
 		<string>TextField</string>
 	</dict>
