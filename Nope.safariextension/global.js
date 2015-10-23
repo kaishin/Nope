@@ -18,7 +18,7 @@ function _currentTabURL() {
 }
 
 function settingsChangeHandler(event) {
-  if (event.key === "whitleListedDomains") {
+  if (event.key === "whitleListedDomains" || event.key === "isPaused") {
     loadRules();
   }
 }
@@ -35,7 +35,8 @@ function commandHandler(event) {
     }
 
     safari.extension.settings.whitleListedDomains = yepArray.join(", ");
-    console.log(safari.extension.settings.whitleListedDomains)
+  } else if (event.command === "pause") {
+    safari.extension.settings.isPaused = !safari.extension.settings.isPaused;
   }
 }
 
@@ -43,16 +44,32 @@ function validateHandler(event) {
   var currentURL = _currentTabURL();
   var domain = extractDomain(currentURL);
 
-  if (event.target.identifier == "whiteListSite") {
-    event.target.checkedState = arrayContains(yepArray, domain)
-    event.target.title = "Yep for " + domain
+  console.log(event.target.identifier);
+
+  if (event.target.identifier == "menuButton") {
+    event.target.disabled = (typeof currentURL === "undefined");
+  } else if (event.target.identifier == "whiteListSite") {
+    event.target.checkedState = arrayContains(yepArray, domain);
+    event.target.title = "Yep for " + domain;
+  } else if (event.target.identifier == "pause") {
+    event.target.checkedState = safari.extension.settings.isPaused;
   }
 }
 
 function loadRules() {
-  if (yepArray.count < 1) {
-    safari.extension.setContentBlocker(rules);
+  console.log("Loading rules...");
+
+  if (safari.extension.settings.isPaused) {
+    emptyRules = [{
+      "action": {"type": "ignore-previous-rules"},
+      "trigger": {"url-filter": ".*"}
+    }];
+    setContentBlocker(emptyRules);
     return;
+  }
+
+  if (yepArray.count < 1) {
+    setContentBlocker(rules);
   }
 
   var ignoreRule = {
@@ -64,10 +81,16 @@ function loadRules() {
   };
 
   var userRules = rules.concat([ignoreRule])
-  safari.extension.setContentBlocker(userRules);
+  setContentBlocker(userRules);
+}
+
+function setContentBlocker(customRules) {
+  safari.extension.setContentBlocker(customRules);
 }
 
 function extractDomain(url) {
+  if (typeof url === "undefined") { return }
+
   var domain;
 
   if (url.indexOf("://") > -1) {
@@ -92,4 +115,11 @@ function arrayRemove(array, element) {
   }
 }
 
+function initSettings() {
+  if (typeof safari.extension.settings.isPaused === "undefined") {
+    safari.extension.settings.isPaused = false;
+  }
+}
+
 loadRules();
+initSettings();
