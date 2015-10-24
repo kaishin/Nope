@@ -37,6 +37,7 @@ function commandHandler(event) {
     safari.extension.settings.whitleListedDomains = yepArray.join(", ");
   } else if (event.command === "pause") {
     safari.extension.settings.isPaused = !safari.extension.settings.isPaused;
+    updateMenuButtonIcon(safari.extension.toolbarItems[0])
   }
 }
 
@@ -44,16 +45,20 @@ function validateHandler(event) {
   var currentURL = _currentTabURL();
   var domain = extractDomain(currentURL);
 
-  console.log(event.target.identifier);
-
   if (event.target.identifier == "menuButton") {
     event.target.disabled = (typeof currentURL === "undefined");
+    updateMenuButtonIcon(event.target);
   } else if (event.target.identifier == "whiteListSite") {
     event.target.checkedState = arrayContains(yepArray, domain);
     event.target.title = "Yep for " + domain;
   } else if (event.target.identifier == "pause") {
     event.target.checkedState = safari.extension.settings.isPaused;
   }
+}
+
+function updateMenuButtonIcon(target) {
+  var imageName = safari.extension.settings.isPaused ? "icon-paused.png" : "icon.png";
+  target.image = safari.extension.baseURI + "assets/" + imageName;
 }
 
 function loadRules() {
