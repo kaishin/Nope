@@ -79,7 +79,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Modern, performant, and responsible content blocking.</string>
+	<string>Responsible and performant content blocking for Safari.</string>
 	<key>DeveloperIdentifier</key>
 	<string>5G38N4D8G2</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -94,5 +94,9 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://raw.githubusercontent.com/kaishin/nope/master/updates.plist</string>
+	<key>Website</key>
+	<string>https://redalemeden.com/nope</string>
 </dict>
 </plist>
