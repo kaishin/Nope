@@ -7016,7 +7016,6 @@ var rules = [
 {"trigger": {"url-filter": "yieldtraffic\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "yieldx\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "yigao\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "yimg\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "yjtag\\.jp", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "yldbt\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "yldmgrimg\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
