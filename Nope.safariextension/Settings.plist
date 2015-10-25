@@ -4,9 +4,17 @@
 <array>
 	<dict>
 		<key>Key</key>
-		<string>whitleListedDomains</string>
+		<string>whiteListedDomains</string>
 		<key>Title</key>
 		<string>Yep Domains</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>blackListedDomains</string>
+		<key>Title</key>
+		<string>Very Nope Domains</string>
 		<key>Type</key>
 		<string>TextField</string>
 	</dict>

@@ -2,12 +2,23 @@ safari.extension.settings.addEventListener("change", settingsChangeHandler, fals
 safari.application.addEventListener("command", commandHandler, false);
 safari.application.addEventListener("validate", validateHandler, false);
 
-var yepDomains = safari.extension.settings.whitleListedDomains;
+var yepDomains = safari.extension.settings.whiteListedDomains;
 var yepArray = _getWhiteListedDomains();
+
+var veryNopeDomains = safari.extension.settings.blackListedDomains;
+var veryNopeArray = _getBlackListedDomains();
 
 function _getWhiteListedDomains() {
   if (yepDomains && yepDomains != "") {
     return yepDomains.split(",").map(function(string) { return string.replace(/ /, "") })
+  } else {
+    return []
+  }
+}
+
+function _getBlackListedDomains() {
+  if (veryNopeDomains && veryNopeDomains != "") {
+    return veryNopeDomains.split(",").map(function(string) { return string.replace(/ /, "") })
   } else {
     return []
   }
@@ -18,23 +29,16 @@ function _currentTabURL() {
 }
 
 function settingsChangeHandler(event) {
-  if (event.key === "whitleListedDomains" || event.key === "isPaused") {
+  if (event.key === "whiteListedDomains" || event.key === "isPaused" || event.key === "blackListedDomains") {
     loadRules();
   }
 }
 
 function commandHandler(event) {
   if (event.command === "whiteListSite") {
-    var currentURL = _currentTabURL();
-    var domain = extractDomain(currentURL);
-
-    if (arrayContains(yepArray, domain)) {
-      arrayRemove(yepArray, domain)
-    } else {
-      yepArray.push(domain)
-    }
-
-    safari.extension.settings.whitleListedDomains = yepArray.join(", ");
+    toggleWhiteListForSite(_currentTabURL());
+  } else if (event.command === "blackListSite") {
+    toggleBlackListForSite(_currentTabURL());
   } else if (event.command === "pause") {
     safari.extension.settings.isPaused = !safari.extension.settings.isPaused;
     updateMenuButtonIcon(safari.extension.toolbarItems[0])
@@ -50,7 +54,10 @@ function validateHandler(event) {
     updateMenuButtonIcon(event.target);
   } else if (event.target.identifier == "whiteListSite") {
     event.target.checkedState = arrayContains(yepArray, domain);
-    event.target.title = "Yep for " + domain;
+    event.target.title = "Yep to " + domain;
+  } else if (event.target.identifier == "blackListSite") {
+    event.target.checkedState = arrayContains(veryNopeArray, domain);
+    event.target.title = "Very Nope to " + domain;
   } else if (event.target.identifier == "pause") {
     event.target.checkedState = safari.extension.settings.isPaused;
   }
@@ -63,34 +70,87 @@ function updateMenuButtonIcon(target) {
 
 function loadRules() {
   console.log("Loading rules...");
+  var userRules = rules;
 
   if (safari.extension.settings.isPaused) {
-    emptyRules = [{
+    userRules = [{
       "action": {"type": "ignore-previous-rules"},
       "trigger": {"url-filter": ".*"}
     }];
-    setContentBlocker(emptyRules);
+    setContentBlocker(userRules);
     return;
   }
 
-  if (yepArray.count < 1) {
-    setContentBlocker(rules);
+  if (yepArray.length > 0) {
+    var ignoreRule = {
+      "action": {"type": "ignore-previous-rules"},
+      "trigger": {
+        "url-filter": ".*",
+        "if-domain": yepArray
+      }
+    };
+
+    userRules = userRules.concat([ignoreRule]);
   }
 
-  var ignoreRule = {
-    "action": {"type": "ignore-previous-rules"},
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": yepArray
-    }
-  };
+  if (veryNopeArray.length > 0) {
+    var veryNopeRules = [
+      {"action": {"type": "block-cookies"},
+      "trigger": {
+        "url-filter": ".*",
+        "if-domain": veryNopeArray}
+      },
+      {"action": {"type": "block"},
+      "trigger": {
+        "url-filter": ".*",
+        "if-domain": veryNopeArray,
+        "resource-type": ["script", "raw", "popup"],
+        "load-type": ["third-party"]}
+      }
+    ];
 
-  var userRules = rules.concat([ignoreRule])
+    userRules = veryNopeRules.concat(userRules)
+  }
+
   setContentBlocker(userRules);
 }
 
 function setContentBlocker(customRules) {
   safari.extension.setContentBlocker(customRules);
+}
+
+function toggleWhiteListForSite(siteURL) {
+  var domain = extractDomain(siteURL);
+
+  if (arrayContains(yepArray, domain)) {
+    arrayRemove(yepArray, domain)
+  } else {
+    yepArray.push(domain)
+
+    if (arrayContains(veryNopeArray, domain)) {
+      arrayRemove(veryNopeArray, domain)
+      safari.extension.settings.blackListedDomains = veryNopeArray.join(", ");
+    }
+  }
+
+  safari.extension.settings.whiteListedDomains = yepArray.join(", ");
+}
+
+function toggleBlackListForSite(siteURL) {
+  var domain = extractDomain(siteURL);
+
+  if (arrayContains(veryNopeArray, domain)) {
+    arrayRemove(veryNopeArray, domain)
+  } else {
+    veryNopeArray.push(domain)
+
+    if (arrayContains(yepArray, domain)) {
+      arrayRemove(yepArray, domain)
+      safari.extension.settings.whiteListedDomains = yepArray.join(", ");
+    }
+  }
+
+  safari.extension.settings.blackListedDomains = veryNopeArray.join(", ");
 }
 
 function extractDomain(url) {

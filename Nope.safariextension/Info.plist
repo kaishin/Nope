@@ -35,7 +35,15 @@
 						<key>Identifier</key>
 						<string>whiteListSite</string>
 						<key>Title</key>
-						<string>Yep for this site</string>
+						<string>Yep to this site</string>
+					</dict>
+					<dict>
+						<key>Checked State</key>
+						<integer>0</integer>
+						<key>Identifier</key>
+						<string>blackListSite</string>
+						<key>Title</key>
+						<string>Very Nope to this site</string>
 					</dict>
 					<dict>
 						<key>Separator</key>
