@@ -942,7 +942,6 @@ var rules = [
 {"trigger": {"url-filter": "appboycdn\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "appdevsecrets\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "appendad\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "apple\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "applebarq\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "apportium\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "appr8\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
