@@ -717,7 +717,6 @@ var rules = [
 {"trigger": {"url-filter": "adz\\.co\\.zw", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "adz\\.zwee\\.ly", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "adzbazar\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "adzerk\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "adzhub\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "adziff\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "adzmob\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -887,7 +886,6 @@ var rules = [
 {"trigger": {"url-filter": "analytics-engine\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "analytics\\.disneyinternational\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "analytics\\.rechtslupe\\.org", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "analytics\\.yahoo\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "analyticswizard\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "analytk\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "anametrix\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -2046,7 +2044,6 @@ var rules = [
 {"trigger": {"url-filter": "dashboardad\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "data-analytics\\.jp", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "data\\.adroll\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "data\\.gosquared\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "data\\.neuroxmedia\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "databrain\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "datacaciques\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -2902,7 +2899,6 @@ var rules = [
 {"trigger": {"url-filter": "get\\.thisisvegas\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "getadblock\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "getbackstory\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "getclicky\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "getcounter\\.de", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "getfreebl\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "getgamers\\.eu", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -2974,7 +2970,6 @@ var rules = [
 {"trigger": {"url-filter": "goodadvert\\.ru", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "goodadvertising\\.info", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "goodcounter\\.org", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "google-analytics\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "google-pr7\\.de", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "google-rank\\.org", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "googleadservicepixel\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -3092,7 +3087,6 @@ var rules = [
 {"trigger": {"url-filter": "healthaffiliatesnetwork\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "healthcarestars\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "healthtrader\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "heapanalytics\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "heatmap\\.it", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "hebiichigo\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "heidiklein\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -3204,7 +3198,6 @@ var rules = [
 {"trigger": {"url-filter": "hplose\\.de", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "hqfootyad4\\.blogspot\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "hqhrt\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "hs-analytics\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "hscta\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "hsdn\\.org", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "hsslx\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -5393,7 +5386,6 @@ var rules = [
 {"trigger": {"url-filter": "rwpads\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "ryminos\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "rztrkr\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "s1\\.wp\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "s1now\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "s2d6\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "s3s-main\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -5482,9 +5474,6 @@ var rules = [
 {"trigger": {"url-filter": "seehits\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "seekads\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "seewhy\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "segment-analytics\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "segment\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": "segment\\.io", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "seitwert\\.de", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "sekindo\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "selaris\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
@@ -7117,172 +7106,6 @@ var rules = [
 {"trigger": {"url-filter": "zxxds\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "zyiis\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "zypenetwork\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
-{"trigger": {"url-filter": ".*"}, "action": {"type": "css-display-none", "selector":
-  "[class$='-ad' i],\
-  [class$='-ads' i],\
-  [class$='_ad' i],\
-  [class$='_ads' i],\
-  [class*=' ad-' i],\
-  [class*=' ad_' i],\
-  [class*=' ads-' i],\
-  [class*=' ads_' i],\
-  [class*='-ad ' i],\
-  [class*='-ad-' i],\
-  [class*='-ad_' i],\
-  [class*='-ads ' i],\
-  [class*='-ads-' i],\
-  [class*='-ads_' i],\
-  [class*='_ad ' i],\
-  [class*='_ad-' i],\
-  [class*='_ad_' i],\
-  [class*='_ads ' i],\
-  [class*='_ads-' i],\
-  [class*='_ads_' i],\
-  [class*='adarea' i],\
-  [class*='adauth' i],\
-  [class*='adbanner' i],\
-  [class*='adbar' i],\
-  [class*='adblock' i],\
-  [class*='adbottom' i],\
-  [class*='adbox' i],\
-  [class*='adcontainer' i],\
-  [class*='adcontent' i],\
-  [class*='adcontrol' i],\
-  [class*='addetails' i],\
-  [class*='addisplay' i],\
-  [class*='adexpert' i],\
-  [class*='adframe' i],\
-  [class*='adinterest' i],\
-  [class*='adlarge' i],\
-  [class*='adlayer' i],\
-  [class*='adleft' i],\
-  [class*='adpanel' i],\
-  [class*='adpopUp' i],\
-  [class*='adrectangle' i],\
-  [class*='adright' i],\
-  [class*='adsense' i],\
-  [class*='adsky' i],\
-  [class*='adslot' i],\
-  [class*='adsmall' i],\
-  [class*='adspac' i],\
-  [class*='adtop' i],\
-  [class*='advert' i],\
-  [class*='adwclassget' i],\
-  [class*='adzone' i],\
-  [class*='bannerad' i],\
-  [class*='barad' i],\
-  [class*='cornerad' i],\
-  [class*='divad' i],\
-  [class*='footerad' i],\
-  [class*='googlead' i],\
-  [class*='googlesearchads' i],\
-  [class*='googleshopping' i],\
-  [class*='googlesponsored' i],\
-  [class*='headerad' i],\
-  [class*='heroad' i],\
-  [class*='searchad' i],\
-  [class*='searchsponsor' i],\
-  [class*='sidead' i],\
-  [class*='sidebarad' i],\
-  [class*='skyad' i],\
-  [class*='spnslink' i],\
-  [class*='sponbox' i],\
-  [class*='sponlink' i],\
-  [class*='sponsorad' i],\
-  [class*='sponsorbanner' i],\
-  [class*='sponsored-' i],\
-  [class*='sponsored_' i],\
-  [class*='sponsoredlink' i],\
-  [class*='textad' i],\
-  [class*='videoad' i],\
-  [class*='yahooad' i],\
-  [class*='yahoosponsored' i],\
-  [class*='zergnet' i],\
-  [class^='ad_' i],\
-  [class|='ad' i]"
-}},
-{"trigger": {"url-filter": ".*"}, "action": {"type": "css-display-none", "selector":
-  "[id$='-ad' i],\
-  [id$='-ads' i],\
-  [id$='_ad' i],\
-  [id$='_ads' i],\
-  [id*=' ad-' i],\
-  [id*=' ad_' i],\
-  [id*=' ads-' i],\
-  [id*=' ads_' i],\
-  [id*='-ad ' i],\
-  [id*='-ad-' i],\
-  [id*='-ad_' i],\
-  [id*='-ads ' i],\
-  [id*='-ads-' i],\
-  [id*='-ads_' i],\
-  [id*='_ad ' i],\
-  [id*='_ad-' i],\
-  [id*='_ad_' i],\
-  [id*='_ads ' i],\
-  [id*='_ads-' i],\
-  [id*='_ads_' i],\
-  [id*='adarea' i],\
-  [id*='adauth' i],\
-  [id*='adbanner' i],\
-  [id*='adbar' i],\
-  [id*='adblock' i],\
-  [id*='adbottom' i],\
-  [id*='adbox' i],\
-  [id*='adcontainer' i],\
-  [id*='adcontent' i],\
-  [id*='adcontrol' i],\
-  [id*='addetails' i],\
-  [id*='addisplay' i],\
-  [id*='adexpert' i],\
-  [id*='adframe' i],\
-  [id*='adinterest' i],\
-  [id*='adlarge' i],\
-  [id*='adlayer' i],\
-  [id*='adleft' i],\
-  [id*='adpanel' i],\
-  [id*='adpopUp' i],\
-  [id*='adrectangle' i],\
-  [id*='adright' i],\
-  [id*='adsense' i],\
-  [id*='adsky' i],\
-  [id*='adslot' i],\
-  [id*='adsmall' i],\
-  [id*='adspac' i],\
-  [id*='adtop' i],\
-  [id*='advert' i],\
-  [id*='adwidget' i],\
-  [id*='adzone' i],\
-  [id*='bannerad' i],\
-  [id*='barad' i],\
-  [id*='cornerad' i],\
-  [id*='divad' i],\
-  [id*='footerad' i],\
-  [id*='googlead' i],\
-  [id*='googlesearchads' i],\
-  [id*='googleshopping' i],\
-  [id*='googlesponsored' i],\
-  [id*='headerad' i],\
-  [id*='heroad' i],\
-  [id*='searchad' i],\
-  [id*='searchsponsor' i],\
-  [id*='sidead' i],\
-  [id*='sidebarad' i],\
-  [id*='skyad' i],\
-  [id*='spnslink' i],\
-  [id*='sponbox' i],\
-  [id*='sponlink' i],\
-  [id*='sponsorad' i],\
-  [id*='sponsorbanner' i],\
-  [id*='sponsored-' i],\
-  [id*='sponsored_' i],\
-  [id*='sponsoredlink' i],\
-  [id*='textad' i],\
-  [id*='videoad' i],\
-  [id*='yahooad' i],\
-  [id*='yahoosponsored' i],\
-  [id*='zergnet' i],\
-  [id^='ad_' i],\
-  [id|='ad' i]"
-}}
 ];
+
+var allRules = rules.concat(trackerRules, adRules, cookiesRules);

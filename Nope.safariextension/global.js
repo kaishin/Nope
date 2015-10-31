@@ -70,7 +70,7 @@ function updateMenuButtonIcon(target) {
 
 function loadRules() {
   console.log("Loading rules...");
-  var userRules = rules;
+  var userRules = allRules;
 
   if (safari.extension.settings.isPaused) {
     userRules = [{
