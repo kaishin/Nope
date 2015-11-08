@@ -2,6 +2,9 @@ var adRules = [
 {"trigger": {"url-filter": "adzerk\\.net", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "adzerk\\.s3\\.amazonaws\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
 {"trigger": {"url-filter": "ads\\.youtube\\.com", "resource-type": ["image", "style-sheet", "script", "font", "raw", "svg-document", "media", "popup"], "load-type": ["third-party"]}, "action": {"type": "block"}},
+];
+
+var adRulesCSS = [
 {"trigger": {"url-filter": ".*"}, "action": {"type": "css-display-none", "selector":
   "[class*='adarea' i],\
   [class*='adauth' i],\
