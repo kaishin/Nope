@@ -199,28 +199,6 @@ analyticsRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?amazingcounters\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?anormal-media\\.de[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -1168,50 +1146,6 @@ analyticsRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?reedge\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?zmedia\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?conversantmedia\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",

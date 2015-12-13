@@ -121,3 +121,5 @@ function test() {
   var disconnectFake = fs.readFileSync(path.resolve(__dirname, "sample.json"), "utf8")
   generateRules(disconnectFake)
 }
+
+updateRules()

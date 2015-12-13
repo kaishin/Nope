@@ -133,28 +133,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?4mads\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?abaxinteractive\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -926,28 +904,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?adbrite\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adbroker\\.de[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1893,50 +1849,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adsmarket\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?matomy\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?admarketplace\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -2136,28 +2048,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?nspmotion\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?admobile\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -3301,28 +3191,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adsmart\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?adspeed\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -3522,28 +3390,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?adtechus\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adsrevenue\\.net[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -3829,116 +3675,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adversal\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adv-adserver\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adverticum\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adverticum\\.net[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?advisormedia\\.cz[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?adxpansion\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -3961,117 +3697,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adxvalue\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adxvalue\\.de[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?adyard\\.de[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adworx\\.at[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adworx\\.be[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adworx\\.nl[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -4270,28 +3896,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?affectv\\.co.uk[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?affiliatetracking\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -4512,50 +4116,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?agkn\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?allstarmediagroup\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?aim4media\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -5017,73 +4577,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?appier\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?applifier\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?applovin\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?appflood\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -5172,28 +4666,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?appnexus\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?alenty\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -5656,28 +5128,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?avantlink\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?avsads\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -7943,50 +7393,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?clickbooth\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adtoll\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?clickwinks\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -9989,28 +9395,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?directtrack\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?dianomi\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -10561,28 +9945,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?earnify\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?ebay\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -10694,28 +10056,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?ekolay\\.net[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?eleavers\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -10957,28 +10297,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?enginenetwork\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?ensighten\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -11178,50 +10496,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?ero-advertising\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?etargetnet\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?etarget\\.eu[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -16127,73 +15401,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?lakana\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?ibsys\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?layer-ad\\.org[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?layer-ads\\.net[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -18635,28 +17843,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?mobilestorm\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?admoda\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -18878,28 +18064,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?moolahmedia\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?monetizemore\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -21451,28 +20615,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?politads\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?pontiflex\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -21562,28 +20704,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?poprule\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?popunder\\.ru[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -21782,28 +20902,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?prosperent\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?propellerads\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -22266,28 +21364,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?quadrantone\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?quakemarketing\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -23190,28 +22266,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?revenuemax\\.de[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?revcontent\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24729,28 +23783,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?specificmedia\\.co.uk[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?spectate\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -25191,28 +24223,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?ethicalads\\.net[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?swoop\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -25566,50 +24576,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?technoratimedia\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?teads\\.tv[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?ebuzzing\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -27216,28 +26182,6 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?usitechnologies\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?valuead\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -29877,28 +28821,6 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?yesads\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?yieldads\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
@@ -29987,51 +28909,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?yoggrt\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?yoc\\.com[:/]",
-   "url-filter-is-case-sensitive": true,
-   "resource-type": [
-    "image",
-    "style-sheet",
-    "script",
-    "font",
-    "raw",
-    "svg-document",
-    "media",
-    "popup"
-   ],
-   "load-type": [
-    "third-party"
-   ]
-  },
-  "action": {
-   "type": "block"
-  }
- },
- {
-  "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?yoc-performance\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
