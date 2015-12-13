@@ -2,6 +2,8 @@ var https = require("https")
 var fs = require("fs")
 var path = require("path")
 
+var excludes = JSON.parse(fs.readFileSync(path.resolve(__dirname, "excludes.json"), "utf8"))["excludes"]
+
 function updateRules() {
   var body = ""
   var options = {
@@ -40,6 +42,7 @@ function generateRules(data) {
     for (var i in massagedData[categoryName]) {
       entry = massagedData[categoryName][i]
       domainList = domainList.concat(flattenEntry(entry))
+      domainList = domainList.filter(function(i) { return excludes.indexOf(i) < 0 })
     }
 
     rulesData = domainList.map(function(domain) {
