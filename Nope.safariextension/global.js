@@ -2,7 +2,7 @@ safari.extension.settings.addEventListener("change", settingsChangeHandler, fals
 safari.application.addEventListener("command", commandHandler, false);
 safari.application.addEventListener("validate", validateHandler, false);
 
-var allRules = advertisingRules.concat(analyticsRules, contentRules, socialRules)
+var allRules = advertisingRules.concat(analyticsRules, socialRules)
 var yepDomains = safari.extension.settings.whiteListedDomains;
 var yepArray = _getWhiteListedDomains();
 
