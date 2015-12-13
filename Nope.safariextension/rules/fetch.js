@@ -1,29 +1,32 @@
 var https = require("https")
 var fs = require("fs")
-var body = ""
+var path = require("path")
 
-var options = {
-  host: "services.disconnect.me",
-  port: 443,
-  path: "/disconnect-plaintext.json",
-  method: "GET"
+function updateRules() {
+  var body = ""
+  var options = {
+    host: "services.disconnect.me",
+    port: 443,
+    path: "/disconnect-plaintext.json",
+    method: "GET"
+  }
+
+  var request = https.request(options, function(result) {
+    result.on("data", function(data) {
+      body += data
+    })
+
+    result.on("end", function() {
+      generateRules(body)
+    })
+  })
+
+  request.end()
+
+  request.on("error", function(e) {
+    console.error(e)
+  })
 }
-
-var request = https.request(options, function(result) {
-  result.on("data", function(data) {
-    body += data
-  })
-
-  result.on("end", function() {
-    generateRules(body)
-  })
-})
-
-request.end()
-
-request.on("error", function(e) {
-  console.error(e)
-})
 
 function generateRules(data) {
   disconnectData = JSON.parse(data)
@@ -43,9 +46,9 @@ function generateRules(data) {
       return blocklistEntry(domain)
     })
 
-    fileData = categoryName.toLowerCase() + "Rules = " + JSON.stringify(rulesData)
+    fileData = categoryName.toLowerCase() + "Rules = " + JSON.stringify(rulesData, null, " ")
 
-    fs.writeFileSync("./generated/" + categoryName.toLowerCase() + "_rules.js", fileData)
+    fs.writeFileSync(path.resolve(__dirname, "generated/" + categoryName.toLowerCase() + "_rules.js"), fileData)
     console.log("Parsed " + domainList.length + " entries in the " + categoryName + " category.")
   }
 }
@@ -65,7 +68,7 @@ function massageData(data) {
   categories["Social"].push(facebook)
   categories["Social"].push(twitter)
 
-  var googleRules = JSON.parse(fs.readFileSync("google.json", "utf8"))["categories"]
+  var googleRules = JSON.parse(fs.readFileSync(path.resolve(__dirname, "google.json"), "utf8"))["categories"]
   var categoryNames = ["Advertising", "Analytics", "Social"]
 
   for (var i in categoryNames) {
@@ -115,6 +118,6 @@ function blocklistEntry(domain) {
 }
 
 function test() {
-  var disconnectFake = fs.readFileSync("sample.json", "utf8")
+  var disconnectFake = fs.readFileSync(path.resolve(__dirname, "sample.json"), "utf8")
   generateRules(disconnectFake)
 }

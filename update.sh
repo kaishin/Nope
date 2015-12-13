@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# node Nope.safariextension/rules/fetch.js
+node Nope.safariextension/rules/fetch.js
 
 GIT_RELEASE_VERSION=$(git describe --tags --always --abbrev=0)
 COMMITS=$(git rev-list HEAD | wc -l)
