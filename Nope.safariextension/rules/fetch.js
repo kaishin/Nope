@@ -3,6 +3,7 @@ var fs = require("fs")
 var path = require("path")
 
 var excludes = JSON.parse(fs.readFileSync(path.resolve(__dirname, "excludes.json"), "utf8"))["excludes"]
+var extras = JSON.parse(fs.readFileSync(path.resolve(__dirname, "extras.json"), "utf8"))
 
 function updateRules() {
   var body = ""
@@ -43,6 +44,11 @@ function generateRules(data) {
       entry = massagedData[categoryName][i]
       domainList = domainList.concat(flattenEntry(entry))
       domainList = domainList.filter(function(i) { return excludes.indexOf(i) < 0 })
+
+      if (extras[categoryName] != undefined) {
+        domainList = domainList.filter(function(i) { return extras[categoryName].indexOf(i) < 0 })
+        domainList = domainList.concat(extras[categoryName])
+      }
     }
 
     rulesData = domainList.map(function(domain) {
