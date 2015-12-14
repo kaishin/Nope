@@ -5,7 +5,8 @@ var advertisingCSSRules = [{
   "action": {
     "type": "css-display-none",
     "selector":
-      "[id^='ad-container' i],\
-      [id^='ads-container' i]"
+      ".ad-promotions-container,\
+      .ad-wide,\
+      .ad-top"
   }
 }];

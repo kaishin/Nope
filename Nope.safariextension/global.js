@@ -2,7 +2,6 @@ safari.extension.settings.addEventListener("change", settingsChangeHandler, fals
 safari.application.addEventListener("command", commandHandler, false);
 safari.application.addEventListener("validate", validateHandler, false);
 
-var allRules = advertisingRules.concat(analyticsRules, socialRules, advertisingCSSRules)
 var yepDomains = safari.extension.settings.whiteListedDomains;
 var yepArray = _getWhiteListedDomains();
 
@@ -15,6 +14,28 @@ function _getWhiteListedDomains() {
   } else {
     return []
   }
+}
+
+function _getAllRules() {
+  var blockAds = safari.extension.settings.blockAdvertising
+  var blockAnalytics = safari.extension.settings.blockAnalytics
+  var blockSocial = safari.extension.settings.blockSocial
+
+  var rules = []
+
+  if (blockAnalytics) {
+    rules = rules.concat(analyticsRules)
+  }
+
+  if (blockSocial) {
+    rules = rules.concat(socialRules)
+  }
+
+  if (blockAds) {
+    rules = rules.concat(advertisingRules, advertisingCSSRules)
+  }
+
+  return rules
 }
 
 function _getBlackListedDomains() {
@@ -30,9 +51,7 @@ function _currentTabURL() {
 }
 
 function settingsChangeHandler(event) {
-  if (event.key === "whiteListedDomains" || event.key === "isPaused" || event.key === "blackListedDomains") {
-    loadRules();
-  }
+  loadRules();
 }
 
 function commandHandler(event) {
@@ -70,8 +89,8 @@ function updateMenuButtonIcon(target) {
 }
 
 function loadRules() {
-  console.log("Loading rules...");
-  var userRules = allRules;
+  var userRules = _getAllRules();
+  console.log("Loading " + userRules.length + " rules...");
 
   if (safari.extension.settings.isPaused) {
     userRules = [{
