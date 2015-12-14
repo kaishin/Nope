@@ -7,6 +7,7 @@ var advertisingCSSRules = [{
     "selector":
       ".ad-promotions-container,\
       .ad-wide,\
-      .ad-top"
+      .ad-top,\
+      #bottomads"
   }
 }];
