@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Extension Updates</key>
+   <array>
+    <dict>
+       <key>CFBundleIdentifier</key>
+       <string>co.kaishin.nope</string>
+       <key>Developer Identifier</key>
+       <string>5G38N4D8G2</string>
+       <key>CFBundleVersion</key>
+       <string>34</string>
+       <key>CFBundleShortVersionString</key>
+       <string>1.1.0</string>
+       <key>URL</key>
+       <string>https://github.com/kaishin/Nope/releases/download/v1.1.0/Nope.safariextz</string>
+     </dict>
+   </array>
+</dict>
+</plist>
