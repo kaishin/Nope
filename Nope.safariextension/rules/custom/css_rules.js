@@ -8,6 +8,7 @@ var advertisingCSSRules = [{
       ".ad-promotions-container,\
       .ad-wide,\
       .ad-top,\
-      #bottomads"
+      #bottomads,\
+      #tads"
   }
 }];
