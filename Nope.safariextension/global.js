@@ -75,7 +75,7 @@ function validateHandler(event) {
     event.target.disabled = (typeof currentURL === "undefined")
     updateMenuButtonIcon(event.target)
   } else if (event.target.identifier == "currentPageURL") {
-    event.target.title = "Rules for " + domain
+    event.target.title = "Domain: " + domain
   } else if (event.target.identifier == "whiteListSite") {
     event.target.checkedState = arrayContains(yepArray, domain)
   } else if (event.target.identifier == "grayListSite") {
