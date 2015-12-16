@@ -16,6 +16,18 @@
        <key>URL</key>
        <string>https://github.com/kaishin/Nope/releases/download/v1.1.0/Nope.safariextz</string>
      </dict>
+     <dict>
+       <key>CFBundleIdentifier</key>
+       <string>co.kaishin.nope</string>
+       <key>Developer Identifier</key>
+       <string>5G38N4D8G2</string>
+       <key>CFBundleVersion</key>
+       <string>41</string>
+       <key>CFBundleShortVersionString</key>
+       <string>1.1.1</string>
+       <key>URL</key>
+       <string>https://github.com/kaishin/Nope/releases/download/v1.1.1/Nope.safariextz</string>
+     </dict>
    </array>
 </dict>
 </plist>
