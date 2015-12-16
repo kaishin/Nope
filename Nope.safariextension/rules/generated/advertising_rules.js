@@ -29654,5 +29654,27 @@ advertisingRules = [
   "action": {
    "type": "block"
   }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[^:]+://+([^:/]+\\.)?content\\.ad[:/]",
+   "url-filter-is-case-sensitive": true,
+   "resource-type": [
+    "image",
+    "style-sheet",
+    "script",
+    "font",
+    "raw",
+    "svg-document",
+    "media",
+    "popup"
+   ],
+   "load-type": [
+    "third-party"
+   ]
+  },
+  "action": {
+   "type": "block"
+  }
  }
 ]
