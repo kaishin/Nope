@@ -15,7 +15,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>34</string>
+	<string>38</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Database Quota</key>
@@ -30,12 +30,28 @@
 				<key>Menu Items</key>
 				<array>
 					<dict>
+						<key>Disabled</key>
+						<true/>
+						<key>Identifier</key>
+						<string>currentPageURL</string>
+						<key>Title</key>
+						<string>website.com</string>
+					</dict>
+					<dict>
 						<key>Checked State</key>
 						<integer>0</integer>
 						<key>Identifier</key>
 						<string>whiteListSite</string>
 						<key>Title</key>
-						<string>Yep to this site</string>
+						<string>Yep (Allow All)</string>
+					</dict>
+					<dict>
+						<key>Checked State</key>
+						<integer>1</integer>
+						<key>Identifier</key>
+						<string>grayListSite</string>
+						<key>Title</key>
+						<string>Nope (Default)</string>
 					</dict>
 					<dict>
 						<key>Checked State</key>
@@ -43,7 +59,7 @@
 						<key>Identifier</key>
 						<string>blackListSite</string>
 						<key>Title</key>
-						<string>Very Nope to this site</string>
+						<string>Mega Nope (Block All)</string>
 					</dict>
 					<dict>
 						<key>Separator</key>
