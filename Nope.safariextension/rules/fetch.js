@@ -34,7 +34,7 @@ function updateRules() {
 function generateRules(data) {
   disconnectData = JSON.parse(data)
   massagedData = massageData(disconnectData)
-  categoryNames = Object.keys(massagedData)
+  categoryNames = ["Advertising", "Analytics", "Social"]
 
   for (var i in categoryNames) {
     var domainList = []
@@ -103,7 +103,7 @@ function findElement(name, jsonArray) {
 }
 
 function urlFilter(domain) {
-  return "^[^:]+://+([^:/]+\\.)?" + domain.replace(".", "\\.") + "[:/]"
+  return "^[^:]+://+([^:/]+\\.)?" + domain.replace(/\./g, "\\.") + "[:/]"
 }
 
 function unlessDomain(domains) {

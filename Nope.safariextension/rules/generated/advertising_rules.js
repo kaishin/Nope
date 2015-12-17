@@ -3015,7 +3015,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.aloodo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.aloodo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -3895,7 +3895,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?affectv\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?affectv\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -3983,7 +3983,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?successfultogether\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?successfultogether\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -4225,7 +4225,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?amazon\\.co.jp[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?amazon\\.co\\.jp[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -4247,7 +4247,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?amazon\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?amazon\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -4401,7 +4401,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?ambientdigital\\.com.vn[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?ambientdigital\\.com\\.vn[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -6667,7 +6667,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?caraytech\\.com.ar[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?caraytech\\.com\\.ar[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -7459,7 +7459,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?cmads\\.com.tw[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?cmads\\.com\\.tw[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -11177,7 +11177,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?eyeconomy\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?eyeconomy\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -11441,7 +11441,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?fairfax\\.com.au[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?fairfax\\.com\\.au[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -11463,7 +11463,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?fxj\\.com.au[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?fxj\\.com\\.au[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -12431,7 +12431,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?geniegroupltd\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?geniegroupltd\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -12629,7 +12629,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?grapeshot\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?grapeshot\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -12981,7 +12981,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?hands\\.com.br[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?hands\\.com\\.br[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -18261,7 +18261,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?mycounter\\.com.ua[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?mycounter\\.com\\.ua[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -19119,7 +19119,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?nuffnang\\.com.my[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?nuffnang\\.com\\.my[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -19361,7 +19361,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?oneiota\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?oneiota\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -19691,7 +19691,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?opt\\.ne.jp[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?opt\\.ne\\.jp[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -20527,7 +20527,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?platform-one\\.co.jp[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?platform-one\\.co\\.jp[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -23541,7 +23541,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?sophus3\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?sophus3\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -23673,7 +23673,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adviva\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?adviva\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24113,7 +24113,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?summitmedia\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?summitmedia\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24179,7 +24179,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?switchconcepts\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?switchconcepts\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24641,7 +24641,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?sensis\\.com.au[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?sensis\\.com\\.au[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24663,7 +24663,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?sensisdata\\.com.au[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?sensisdata\\.com\\.au[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24685,7 +24685,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?sensisdigitalmedia\\.com.au[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?sensisdigitalmedia\\.com\\.au[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24707,7 +24707,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?telstra\\.com.au[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?telstra\\.com\\.au[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -24751,7 +24751,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?terra\\.com.br[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?terra\\.com\\.br[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -25917,7 +25917,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?unanimis\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?unanimis\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -27259,7 +27259,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?webads\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?webads\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -28271,7 +28271,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adserver\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?adserver\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -28293,7 +28293,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?advertising\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?advertising\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -28315,7 +28315,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?marketingsolutions\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?marketingsolutions\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -28557,7 +28557,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?yandex\\.com.tr[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?yandex\\.com\\.tr[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -29437,7 +29437,7 @@ advertisingRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?adwords\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?adwords\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -29658,6 +29658,28 @@ advertisingRules = [
  {
   "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?content\\.ad[:/]",
+   "url-filter-is-case-sensitive": true,
+   "resource-type": [
+    "image",
+    "style-sheet",
+    "script",
+    "font",
+    "raw",
+    "svg-document",
+    "media",
+    "popup"
+   ],
+   "load-type": [
+    "third-party"
+   ]
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[^:]+://+([^:/]+\\.)?o\\.aolcdn\\.com/ads[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",

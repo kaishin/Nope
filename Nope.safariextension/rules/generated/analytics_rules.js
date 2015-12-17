@@ -2487,7 +2487,7 @@ analyticsRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?src\\.kitcode.net[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?src\\.kitcode\\.net[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -2927,7 +2927,7 @@ analyticsRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?research\\.de.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?research\\.de\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -3807,7 +3807,7 @@ analyticsRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?valuedopinions\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?valuedopinions\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -4335,7 +4335,7 @@ analyticsRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?heronpartners\\.com.au[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?heronpartners\\.com\\.au[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -5017,7 +5017,7 @@ analyticsRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?wowanalytics\\.co.uk[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?wowanalytics\\.co\\.uk[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -5083,7 +5083,7 @@ analyticsRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?analytics\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?analytics\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",

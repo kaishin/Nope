@@ -639,7 +639,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?address\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?address\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -661,7 +661,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?alerts\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?alerts\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -683,7 +683,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?avatars\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?avatars\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -705,7 +705,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?buzz\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?buzz\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -727,7 +727,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?calendar\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?calendar\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -749,7 +749,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?edit\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?edit\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -771,7 +771,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?legalredirect\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?legalredirect\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -793,7 +793,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?login\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?login\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -815,7 +815,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?mail\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?mail\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -837,7 +837,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?my\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?my\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -859,7 +859,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?notepad\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?notepad\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -881,7 +881,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?pulse\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?pulse\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -903,7 +903,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?webmessenger\\.yahoo.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?webmessenger\\.yahoo\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1211,7 +1211,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?developers\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?developers\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1255,7 +1255,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?mail\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?mail\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1277,7 +1277,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?inbox\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?inbox\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1321,7 +1321,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?plus\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?plus\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1343,7 +1343,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?plusone\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?plusone\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1365,7 +1365,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?voice\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?voice\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
@@ -1387,7 +1387,7 @@ socialRules = [
  },
  {
   "trigger": {
-   "url-filter": "^[^:]+://+([^:/]+\\.)?wave\\.google.com[:/]",
+   "url-filter": "^[^:]+://+([^:/]+\\.)?wave\\.google\\.com[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
     "image",
