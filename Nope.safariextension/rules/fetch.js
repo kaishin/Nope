@@ -103,7 +103,7 @@ function findElement(name, jsonArray) {
 }
 
 function urlFilter(domain) {
-  return "^[^:]+://+([^:/]+\\.)?" + domain.replace(/\./g, "\\.") + "[:/]"
+  return "^[^:]+://+([^:/]+\\.)?" + domain.replace(/\./g, "\\.").replace(/[^a-zA-Z0-9\\\./-]/g, "") + "[:/]"
 }
 
 function unlessDomain(domains) {
