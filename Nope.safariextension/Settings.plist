@@ -30,7 +30,7 @@
 		<key>Key</key>
 		<string>blockAdvertising</string>
 		<key>Title</key>
-		<string>Block Ad Networks ——–— (1349 Rules)</string>
+		<string>Block Advertising (1350 Rules)</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>
@@ -42,7 +42,7 @@
 		<key>Key</key>
 		<string>blockAnalytics</string>
 		<key>Title</key>
-		<string>Block Analytics Scripts —— (235 Rules)</string>
+		<string>Block Tracking (235 Rules)</string>
 		<key>TrueValue</key>
 		<string>true</string>
 		<key>Type</key>
@@ -54,7 +54,7 @@
 		<key>Key</key>
 		<string>blockSocial</string>
 		<key>Title</key>
-		<string>Block Social Widgets —–—— (65 Rules)</string>
+		<string>Block Social (65 Rules)</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>

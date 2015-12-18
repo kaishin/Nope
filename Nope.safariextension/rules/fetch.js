@@ -1,6 +1,7 @@
 var https = require("https")
 var fs = require("fs")
 var path = require("path")
+var exec = require("child_process").exec;
 
 var excludes = JSON.parse(fs.readFileSync(path.resolve(__dirname, "excludes.json"), "utf8"))["excludes"]
 var extras = JSON.parse(fs.readFileSync(path.resolve(__dirname, "extras.json"), "utf8"))
@@ -59,7 +60,31 @@ function generateRules(data) {
 
     fs.writeFileSync(path.resolve(__dirname, "generated/" + categoryName.toLowerCase() + "_rules.js"), fileData)
     console.log("Parsed " + domainList.length + " entries in the " + categoryName + " category.")
+    updateRuleCount(domainList.length, categoryName)
   }
+}
+
+function updateRuleCount(count, category) {
+  initialPlistIndex = 3
+  label = ""
+
+  switch (category) {
+  case "Analytics":
+    initialPlistIndex += 1
+    label = "Block Tracking"
+    break
+  case "Social":
+    initialPlistIndex += 2
+    label = "Block Social"
+    break
+  default:
+    label = "Block Advertising"
+    break
+  }
+
+  plistArgument = "Set " + initialPlistIndex + ":Title " + label + " (" + count + " Rules)"
+  command = "/usr/libexec/PlistBuddy -c '" + plistArgument + "' Nope.safariextension/Settings.plist"
+  exec(command)
 }
 
 function massageData(data) {
