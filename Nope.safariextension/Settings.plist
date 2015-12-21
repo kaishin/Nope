@@ -54,7 +54,7 @@
 		<key>Key</key>
 		<string>blockSocial</string>
 		<key>Title</key>
-		<string>Block Social (65 Rules)</string>
+		<string>Block Social (64 Rules)</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>

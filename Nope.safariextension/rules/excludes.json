@@ -1,3 +1,4 @@
 { "excludes": [
-  "twimg.com"
+  "twimg.com",
+  "licdn.com"
 ]}
