@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/kaishin/Nope/master/logo.svg)
+![Logo](https://cdn.rawgit.com/kaishin/Nope/master/logo.svg)
 
 # Nope
 
