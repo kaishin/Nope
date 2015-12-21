@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
-    <title>header-icon</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M103,75.6472127 L103,114.00641 C103,118.415789 99.4186157,122 95.0007542,122 L14.9992458,122 C10.5881049,122 7,118.421148 7,114.00641 L7,15.9935899 C7,11.5842109 10.5813843,8 14.9992458,8 L95.0007542,8 C99.4118951,8 103,11.5788521 103,15.9935899 L103,54.8814496 C103.767548,55.5669405 104.829184,56.0465116 106.297391,56.0465116 C111.443429,56.0465116 108.567702,50 117.043529,50 C125.519355,50 127.000001,59.574249 127,65 C126.999999,68.7209302 126.005722,80 117.529895,80 C109.054069,80 111.443429,74.574249 106.297391,74.574249 C104.829184,74.574249 103.767548,75.01591 103,75.6472127 Z" id="path-1"></path>
-    </defs>
-    <g id="Nope" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="header-icon" sketch:type="MSArtboardGroup">
-            <g id="Puzzle-Copy">
-                <use fill="none" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
-                <use fill="#F95D5E" fill-rule="evenodd" xlink:href="#path-1"></use>
-            </g>
-            <path d="M54.5,90 C68.0309764,90 79,79.0309764 79,65.5 C79,51.9690236 68.0309764,41 54.5,41 C40.9690236,41 30,51.9690236 30,65.5 C30,79.0309764 40.9690236,90 54.5,90 Z M39,68 L39,63 L69,63 L69,68 L39,68 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>header-icon</title><defs><path d="M103 75.647v38.36c0 4.41-3.58 7.993-8 7.993H15c-4.412 0-8-3.58-8-7.994V15.994C7 11.584 10.58 8 15 8h80c4.412 0 8 3.58 8 7.994V54.88c.768.687 1.83 1.167 3.297 1.167 5.146 0 2.27-6.047 10.747-6.047C125.52 50 127 59.574 127 65c0 3.72-.994 15-9.47 15s-6.087-5.426-11.233-5.426c-1.468 0-2.53.442-3.297 1.073z" id="a"/></defs><g fill="none" fill-rule="evenodd"><use xlink:href="#a"/><use fill="#F95D5E" xlink:href="#a"/><path d="M54.5 90C68.03 90 79 79.03 79 65.5S68.03 41 54.5 41 30 51.97 30 65.5 40.97 90 54.5 90zM39 68v-5h30v5H39z" fill="#FFF"/></g></svg>
