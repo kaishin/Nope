@@ -5168,5 +5168,27 @@ analyticsRules = [
   "action": {
    "type": "block"
   }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[^:]+://+([^:/]+\\.)?stats\\.wp\\.com[:/]",
+   "url-filter-is-case-sensitive": true,
+   "resource-type": [
+    "image",
+    "style-sheet",
+    "script",
+    "font",
+    "raw",
+    "svg-document",
+    "media",
+    "popup"
+   ],
+   "load-type": [
+    "third-party"
+   ]
+  },
+  "action": {
+   "type": "block"
+  }
  }
 ]

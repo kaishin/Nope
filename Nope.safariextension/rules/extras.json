@@ -4,6 +4,8 @@
     "o.aolcdn.com/ads",
     "wwwpromoter.com"
   ],
-  "Analytics": [],
+  "Analytics": [
+    "stats.wp.com"
+  ],
   "Social": []
 }
