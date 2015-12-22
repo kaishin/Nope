@@ -2,11 +2,10 @@
 
 # Nope
 
-[![Join the chat at https://gitter.im/kaishin/Nope](https://badges.gitter.im/kaishin/Nope.svg)](https://gitter.im/kaishin/Nope?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Latest Release](https://img.shields.io/github/release/kaishin/Nope.svg)](https://github.com/kaishin/Nope/releases)
 [![Downloads](https://img.shields.io/github/downloads/kaishin/Nope/total.svg)](https://github.com/kaishin/Nope/releases)
 [![License](https://img.shields.io/github/license/kaishin/Nope.svg)](https://github.com/kaishin/Nope/releases)
+[![Join the chat at https://gitter.im/kaishin/Nope](https://badges.gitter.im/kaishin/Nope.svg)](https://gitter.im/kaishin/Nope)
 
 Blazing fast content blocking for Safari 9+.
 
