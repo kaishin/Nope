@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/kaishin/Nope/total.svg)](https://github.com/kaishin/Nope/releases)
 [![License](https://img.shields.io/github/license/kaishin/Nope.svg)](https://github.com/kaishin/Nope/releases)
 
-A responsible and performant content blocking extension for Safari.
+Blazing fast content blocking for Safari 9+.
 
 ## Manual Install
 
