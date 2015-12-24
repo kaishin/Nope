@@ -23,7 +23,7 @@ Blocking something that shouldn't be blocked or allowing something that should? 
 
 - Open an issue explaining the problem.
 - Open a PR on this repository to [add new resources](https://github.com/kaishin/Nope/blob/master/Nope.safariextension/rules/excludes.json) or [remove existing ones](https://github.com/kaishin/Nope/blob/master/Nope.safariextension/rules/extras.json).
-- Since Nope uses data from [Disconnect.me](https://github.com/disconnectme/disconnect-tracking-protection), feel free to open a PR there instead.
+- Since Nope uses data from [Disconnect.me](https://github.com/disconnectme/disconnect-tracking-protection), feel free to open a PR there instead. **Note**: None of the open PRs on that repository have been merged so far.
 
 ## License
 See `LICENSE.md`.
