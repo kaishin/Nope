@@ -29657,6 +29657,28 @@ advertisingRules = [
  },
  {
   "trigger": {
+   "url-filter": "^[^:]+://+([^:/]+\\.)?fusion\\.dn\\.se[:/]",
+   "url-filter-is-case-sensitive": true,
+   "resource-type": [
+    "image",
+    "style-sheet",
+    "script",
+    "font",
+    "raw",
+    "svg-document",
+    "media",
+    "popup"
+   ],
+   "load-type": [
+    "third-party"
+   ]
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
    "url-filter": "^[^:]+://+([^:/]+\\.)?o\\.aolcdn\\.com/ads[:/]",
    "url-filter-is-case-sensitive": true,
    "resource-type": [
