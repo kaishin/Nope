@@ -69,7 +69,7 @@
 						<key>Identifier</key>
 						<string>report</string>
 						<key>Title</key>
-						<string>Report Issue on GitHub</string>
+						<string>Report Issue</string>
 					</dict>
 					<dict>
 						<key>Separator</key>
