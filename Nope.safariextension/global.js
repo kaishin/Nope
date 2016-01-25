@@ -55,15 +55,23 @@ function settingsChangeHandler(event) {
 }
 
 function commandHandler(event) {
-  if (event.command == "whiteListSite") {
-    whiteListSite(_currentTabURL())
-  } else if (event.command == "grayListSite") {
-    grayListSite(_currentTabURL())
-  } else if (event.command == "blackListSite") {
-    blackListSite(_currentTabURL())
-  } else if (event.command == "pause") {
-    safari.extension.settings.isPaused = !safari.extension.settings.isPaused
-    updateMenuButtonIcon(safari.extension.toolbarItems[0])
+  switch (event.command) {
+    case "whiteListSite":
+      whiteListSite(_currentTabURL())
+      break
+    case "grayListSite":
+      grayListSite(_currentTabURL())
+      break
+    case "blackListSite":
+      blackListSite(_currentTabURL())
+      break
+    case "pause":
+      safari.extension.settings.isPaused = !safari.extension.settings.isPaused
+      updateMenuButtonIcon(safari.extension.toolbarItems[0])
+      break
+    case "report":
+      reportSite(_currentTabURL())
+      break
   }
 }
 
@@ -187,6 +195,14 @@ function blackListSite(siteURL) {
   safari.extension.settings.blackListedDomains = megaNopeArray.join(", ")
 }
 
+function reportSite(siteURL) {
+  var domain = extractDomain(siteURL)
+  var nopeVersion = safari.extension.displayVersion
+  var details = "-+Description%3A+...%0A-+Nope+Version%3A+" + nopeVersion + "%0A-+Safari+Version%3A+" + safariVersion()
+  var newTab = safari.application.activeBrowserWindow.openTab()
+  newTab.url = "https://github.com/kaishin/Nope/issues/new?title=%5BReport%5D+" + domain + "&body=" + details
+}
+
 function extractDomain(url) {
   if (typeof url === "undefined") { return }
 
@@ -218,6 +234,10 @@ function initSettings() {
   if (typeof safari.extension.settings.isPaused === "undefined") {
     safari.extension.settings.isPaused = false
   }
+}
+
+function safariVersion() {
+  return navigator.userAgent.match(/(Version\/)[^\s]+/i)[0].split("/")[1]
 }
 
 loadRules()

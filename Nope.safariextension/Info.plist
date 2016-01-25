@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Reda Lemeden</string>
 	<key>Builder Version</key>
-	<string>11601.3.9</string>
+	<string>11601.4.4</string>
 	<key>CFBundleDisplayName</key>
 	<string>Nope</string>
 	<key>CFBundleIdentifier</key>
@@ -60,6 +60,16 @@
 						<string>blackListSite</string>
 						<key>Title</key>
 						<string>Mega Nope (Block All)</string>
+					</dict>
+					<dict>
+						<key>Separator</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Identifier</key>
+						<string>report</string>
+						<key>Title</key>
+						<string>Report Issue on GitHub</string>
 					</dict>
 					<dict>
 						<key>Separator</key>
