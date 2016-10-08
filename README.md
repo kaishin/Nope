@@ -15,7 +15,7 @@ Download the latest version from [the website](https://redalemeden.com/nope/) or
 
 ## Install via Extension Gallery
 
-Coming soon...
+Download the latest version from [Safari Extensions Gallery](https://safari-extensions.apple.com/details/?id=co.kaishin.nope-5G38N4D8G2)
 
 ## Contribute
 
